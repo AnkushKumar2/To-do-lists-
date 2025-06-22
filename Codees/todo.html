@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todolist</title>
+    <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    <h1>To Do App</h1>
-    <div class="container">
-      <div>
+    <section class="backgroundcontainer">
+        <!-- <div class="overlay"></div> -->
+    </section>
+    <section class="contentcontainer">
+        <div class="uppercontainer">
+            <h1>To Do App</h1>
+
+        </div>
+        
+    <div class="inputcontainer">
+        <div class="addinputcontainer">
  <input id="todoinput" placeholder="Type your to do ">
         <button id="addbtn">Add</button>
       </div> 
+
+
+  
+    </div>
+    <section class="listcontainer">
+            
  <div>
         <ul id="todoitems">
             
@@ -21,7 +36,11 @@
 
 
     </div>
-    </div>
+
+    </section>
+
+    </section>
+    
     <script src="todo.js"></script>
 </body>
 </html>
