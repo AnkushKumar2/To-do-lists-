@@ -8,11 +8,14 @@
 }
 body{
     background-color: rgba(207, 109, 64, 0.764);
+    justify-content: center;
+    display: flex;
 }
 .contentcontainer{
     border: 2px solid red;
     height: 80vh;
     width: 50vh;
+    margin: 15rem;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
