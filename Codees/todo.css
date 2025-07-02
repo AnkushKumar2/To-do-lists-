@@ -14,10 +14,24 @@ body{
 .contentcontainer{
     border: 2px solid red;
     height: 80vh;
-    width: 50vh;
+    width: 100vh;
     margin: 15rem;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* transform: translate(-50%,-50%); */
+}
+.uppercontainer{
+    border: 2px solid yellow;
+    justify-items: center;
+}
+.uppercontainer>h1{
+    align-items: center;
+    font-size: 50px;
+    /* padding: 0.4rem ; */
+}
+.inputcontainer{
+    display: flex;
+    padding: 1rem  1rem;
+    justify-content: space-around;
 }
