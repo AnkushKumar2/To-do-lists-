@@ -7,7 +7,10 @@
     /* align-items: center; */
 }
 body{
-    background-color: rgba(207, 109, 64, 0.764);
+    /* background-color: rgba(207, 109, 64, 0.764); */
+    /* background-c;
+     */
+     background-color: antiquewhite;
     justify-content: center;
     display: flex;
 }
@@ -22,12 +25,14 @@ body{
     /* transform: translate(-50%,-50%); */
 }
 .uppercontainer{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     justify-items: center;
 }
 .uppercontainer>h1{
     align-items: center;
     font-size: 50px;
+    white-space: nowrap;
+    padding: 1.8rem 1rem;
     /* padding: 0.4rem ; */
 }
 .inputcontainer{
