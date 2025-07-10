@@ -10,15 +10,17 @@ body{
     /* background-color: rgba(207, 109, 64, 0.764); */
     /* background-c;
      */
-     background-color: antiquewhite;
+     /* background-color: antiquewhite; */
+     background: linear-gradient(to bottom, purple,rgb(159, 12, 12));
     justify-content: center;
     display: flex;
 }
 .contentcontainer{
     border: 2px solid red;
     height: 80vh;
-    width: 100vh;
+    width: 100vh
     margin: 15rem;
+    /* background: aliceblue; */
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
