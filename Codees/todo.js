@@ -4,7 +4,7 @@ const toitems=document.getElementById('todoitems')
 
 addbttn.addEventListener('click',()=>{
     const value= toinput.value;
-    if(toinput.value===''){
+    if(value===''){
         alert("You must write something");
     }
     else{
